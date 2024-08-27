@@ -1,0 +1,44 @@
+[gd_scene load_steps=3 format=3 uid="uid://dj7nx3km1nhpr"]
+
+[ext_resource type="Script" path="res://Script/Godot/Goal.cs" id="1_rauqo"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_mxnv5"]
+font_size = 40
+
+[node name="Goal" type="Control" node_paths=PackedStringArray("game_unrest_level", "bio_sci_progess", "winText")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_rauqo")
+game_unrest_level = NodePath("UnrestLevel")
+bio_sci_progess = NodePath("BioSciProgess")
+winText = NodePath("WinText")
+
+[node name="UnrestLevel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 0.833336
+offset_top = 3.0
+offset_right = 190.833
+offset_bottom = 26.0
+text = "Total Cival Unrest Level :"
+
+[node name="BioSciProgess" type="Label" parent="."]
+layout_mode = 0
+offset_left = 1.0
+offset_top = 27.0
+offset_right = 121.0
+offset_bottom = 50.0
+text = "Bio-Sci Progess:"
+
+[node name="WinText" type="Label" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 519.0
+offset_top = 577.0
+offset_right = 680.0
+offset_bottom = 632.0
+text = "Win text"
+label_settings = SubResource("LabelSettings_mxnv5")

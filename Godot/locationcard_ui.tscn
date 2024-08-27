@@ -1,0 +1,34 @@
+[gd_scene load_steps=3 format=3 uid="uid://cj1uxiv7ksdp6"]
+
+[ext_resource type="Texture2D" uid="uid://ben7qqx34vpkq" path="res://addons/Card/assets/card_back.png" id="1_45y8n"]
+[ext_resource type="Texture2D" uid="uid://dp7k4aq6freb1" path="res://addons/Card/assets/card_clubs_02.png" id="2_6spi6"]
+
+[node name="locationcard_ui" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Backface" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_45y8n")
+
+[node name="Frontface" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("2_6spi6")
+
+[node name="Label" type="Label" parent="Frontface"]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 206.0
+offset_right = 149.0
+offset_bottom = 229.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 8
+theme_override_font_sizes/font_size = 14
+text = "Nice name"

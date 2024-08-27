@@ -1,0 +1,87 @@
+[
+  {
+	"nice_name": "Bar",
+	"texture_path": "res://addons/Card/assets/card_hearts_A.png",
+	"backface_texture_path": "res://addons/Card/assets/card_back.png",
+	"resource_script_path":"res://Script/Godot/card_ui_data.gd",
+	"description" : "A bar."
+  },
+  {
+	"nice_name": "Hotel",
+	"texture_path": "res://addons/Card/assets/card_hearts_02.png",
+	"backface_texture_path": "res://addons/Card/assets/card_back.png",
+	"resource_script_path":"res://Script/Godot/card_ui_data.gd",
+	"description" : "A bar."
+  },
+  {
+	"nice_name": "Pharmacy",
+	"texture_path": "res://addons/Card/assets/card_hearts_03.png",
+	"backface_texture_path": "res://addons/Card/assets/card_back.png",
+	"resource_script_path":"res://Script/Godot/card_ui_data.gd",
+	"description" : "A bar."
+	
+  },
+  {
+	"nice_name": "Dining Place",
+	"texture_path": "res://addons/Card/assets/card_hearts_04.png",
+	"backface_texture_path": "res://addons/Card/assets/card_back.png",
+	"resource_script_path":"res://Script/Godot/card_ui_data.gd",
+	"description" : "A bar."
+  },
+  {
+	"nice_name": "Factory",
+	"texture_path": "res://addons/Card/assets/card_hearts_05.png",
+	"backface_texture_path": "res://addons/Card/assets/card_back.png",
+	"resource_script_path":"res://Script/Godot/card_ui_data.gd",
+	"description" : "A bar."
+  },
+  {
+	"nice_name": "Company",
+	"texture_path": "res://addons/Card/assets/card_hearts_06.png",
+	"backface_texture_path": "res://addons/Card/assets/card_back.png",
+	"resource_script_path":"res://Script/Godot/card_ui_data.gd",
+	"description" : "A bar."
+  },
+  {
+	"nice_name": "Fountain",
+	"texture_path": "res://addons/Card/assets/card_hearts_07.png",
+	"backface_texture_path": "res://addons/Card/assets/card_back.png",
+	"resource_script_path":"res://Script/Godot/card_ui_data.gd",
+	"description" : "A bar."
+  },
+  {
+	"nice_name": "University",
+	"texture_path": "res://addons/Card/assets/card_hearts_08.png",
+	"backface_texture_path": "res://addons/Card/assets/card_back.png",
+	"resource_script_path":"res://Script/Godot/card_ui_data.gd",
+	"description" : "A bar."
+  },
+  {
+	"nice_name": "Neighborhood",
+	"texture_path": "res://addons/Card/assets/card_hearts_09.png",
+	"backface_texture_path": "res://addons/Card/assets/card_back.png",
+	"resource_script_path":"res://Script/Godot/card_ui_data.gd",
+	"description" : "A bar."
+  },
+  {
+	"nice_name": "Church",
+	"texture_path": "res://addons/Card/assets/card_hearts_10.png",
+	"backface_texture_path": "res://addons/Card/assets/card_back.png",
+	"resource_script_path":"res://Script/Godot/card_ui_data.gd",
+	"description" : "A bar."
+  },
+  {
+	"nice_name": "Theater",
+	"texture_path": "res://addons/Card/assets/card_hearts_J.png",
+	"backface_texture_path": "res://addons/Card/assets/card_back.png",
+	"resource_script_path":"res://Script/Godot/card_ui_data.gd",
+	"description" : "A bar."
+  },
+  {
+	"nice_name": "Shopping Mall",
+	"texture_path": "res://addons/Card/assets/card_joker_black.png",
+	"backface_texture_path": "res://addons/Card/assets/card_back.png",
+	"resource_script_path":"res://Script/Godot/card_ui_data.gd",
+	"description" : "A bar."
+  }
+]
