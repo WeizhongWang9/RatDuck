@@ -8,9 +8,10 @@
 
 Rat & Duck is a competitive tabletop game. The story is set in a totalitarian city-state where the government secretly kidnaps civilians for research that grants immortality to the power holders. The opponent team, the dissent, must rescue civilians and spread the truth, eventually overturning such research by causing enough chaos in the city.
 
-A Windows version of the game is provided.
+# To Play
 
-  
+A Windows version of the game is provided. Download all files in the folder "EXE" and run file RatDuck.exe.
+
 
 # Rulebook
 1. Setup
